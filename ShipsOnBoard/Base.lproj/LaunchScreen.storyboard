@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I8j-3p-7xv">
+                                <rect key="frame" x="16" y="287" width="358" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Boat's Operator Navi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeA-DA-HmP">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="110"/>
+                                        <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="38"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小型船舶Navi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwx-0A-DEu">
+                                        <rect key="frame" x="0.0" y="110" width="358" height="40"/>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="NB3-Yc-BOW"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="26V-Hd-0Sy">
+                                <rect key="frame" x="16" y="730" width="358" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="企画・制作：澄川将大" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uc9-Re-7mz">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="37.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNM-Ls-Ox5">
+                                        <rect key="frame" x="0.0" y="42.666666666666629" width="358" height="37.333333333333343"/>
+                                        <string key="text">配布：専修学校クラーク高等学院 大阪梅田校
+プログラミングコース</string>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="y7m-9N-N8A"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UWIcon2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="DaA-WQ-lXL">
+                                <rect key="frame" x="-1309.6666666666667" y="497" width="3009.3333333333335" height="173"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="26V-Hd-0Sy" secondAttribute="bottom" id="BHB-WX-lf7"/>
+                            <constraint firstItem="I8j-3p-7xv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-60" id="CFz-0x-LiM"/>
+                            <constraint firstItem="I8j-3p-7xv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="F1g-f0-EgQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="26V-Hd-0Sy" secondAttribute="trailing" constant="16" id="MPV-jI-pud"/>
+                            <constraint firstItem="26V-Hd-0Sy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="P8V-9N-KPl"/>
+                            <constraint firstItem="DaA-WQ-lXL" firstAttribute="top" secondItem="I8j-3p-7xv" secondAttribute="bottom" constant="60" id="qDR-AV-Clh"/>
+                            <constraint firstItem="26V-Hd-0Sy" firstAttribute="top" secondItem="DaA-WQ-lXL" secondAttribute="bottom" constant="60" id="ruV-SR-crf"/>
+                            <constraint firstItem="DaA-WQ-lXL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="s2y-NZ-lR7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I8j-3p-7xv" secondAttribute="trailing" constant="16" id="tZT-g5-5vn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.307692307692307" y="374.64454976303318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="UWIcon2.jpeg" width="3009" height="4000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
