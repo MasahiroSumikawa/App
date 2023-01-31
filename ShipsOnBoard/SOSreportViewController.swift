@@ -55,6 +55,7 @@ class SOSreportViewController: UIViewController {
         BAN.layer.borderWidth = 2.0
         BAN.layer.borderColor = UIColor.gray.cgColor
         BAN.layer.cornerRadius = 7.0
+        //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         // Do any additional setup after loading the view.
     }
     
